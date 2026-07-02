@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Job application: Senior Web Developer</h1>
+  <p>Thank you for your interest in joining our team. Please fill out the application below.</p>
+  <hr>
+
+  <form>
+
+    <h2>Personal Information</h2>
+
+    <label for="fname">Full name</label> <br>
+    <input type="text" name="fname" id="fname" required> <br><br>
+
+    <label for="email">Email</label> <br>
+    <input type="email" name="email" id="email" required><br><br>
+
+    <label for="tele">Phone</label> <br>
+    <input type="tel" name="phone" id="tele"> <br><br>
+
+    <label for="linkedin">LinkedIn URL</label><br>
+    <input type="url" name="linkedin" id="linkedin" placeholder="https://linkedin.com/in/yourusername">
+    <br><br>
+    <hr>
+
+    <h2>Professional Experience</h2>
+
+    <label for="resume">Upload your resume </label>
+    <br>
+    <input type="file" name="resume" id="resume"><br><br>
+
+    <label for="coverletter">Cover Letter</label><br>
+    <textarea name="coverletter" id="coverletter" placeholder="Tell us why you're a great fit for this role.." rows="5"></textarea>
+
+    <hr>
+
+    <h2>Skills & Availability</h2>
+
+    <label for="">Primary Skillset (Choose one)</label><br>
+
+    <input type="radio" name="skills" id="frontend" value="frontend">
+    <label for="frontend">Frontend Development</label><br>
+
+    <input type="radio" name="skills" id="backend" value="backend">
+    <label for="backend">Backend Development</label><br>
+
+    <input type="radio" name="skills" id="fullstack" value="fullstack">
+    <label for="fullstack">Full Stack Development</label>
+    <br><br>
+
+    <label for="">Additional Skills (Select all that apply)</label><br>
+
+    <input type="checkbox" name="additionalSkills" id="react" value="react">
+    <label for="react">React</label><br>
+
+    <input type="checkbox" name="additionalSkills" id="nodejs" value="nodejs">
+    <label for="nodejs">Node.js</label><br>
+
+    <input type="checkbox" name="additionalSkills" id="database" value="database">
+    <label for="database">Database Management</label><br><br>
+
+    <label for="">Preferred Work Type</label>
+
+    <select name="workType" id="">
+      <option value="fulltime">Full Time</option>
+      <option value="parttime">Part-Time</option>
+    </select>
+
+    <hr>
+
+    <h2>Final Confirmation</h2>
+    <input type="checkbox" name="terms" id="terms">
+    <label for="terms">I am legally authorized to work in this country.</label><br><br>
+
+    <input type="submit">
+    <input type="reset">
+    
+
+  </form>
+</body>
+</html>
