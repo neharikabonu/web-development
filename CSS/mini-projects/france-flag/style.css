@@ -1,0 +1,25 @@
+body {
+  background-color: black;
+}
+
+.outer-container {
+  height: 200px;
+  width: 300px;
+  background-color: white;
+  position: relative;
+}
+
+.first-container {
+  background-color: rgb(51, 51, 161);
+  height: 200px;
+  width: 100px;
+}
+
+.second-container {
+  background-color: red;
+  height: 200px;
+  width: 100px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
