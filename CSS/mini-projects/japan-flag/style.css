@@ -1,0 +1,26 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: black;
+}
+
+.firstContainer {
+  background-color: white;
+  height: 200px;
+  width: 300px;
+  margin: 20px;
+  position: relative;
+}
+
+.innerContainer {
+  background-color: red;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  position: absolute;
+  left: 100px;
+  top: 50px;
+}

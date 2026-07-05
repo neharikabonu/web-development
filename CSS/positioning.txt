@@ -1,0 +1,42 @@
+positioning in css
+
+position: "value";
+1. static (default)
+2. relative
+3. fixed
+4. sticky
+5. absolute
+
+relative:
+
+position: relative; (top, right, bottom, left)
+it doesn't let any content in its original place even after changing its+'s own position
+
+left: 50px; moves 50px away from the left
+(from its initial position i.e., relative to its own position)
+
+fixed:
+
+position: fixed;
+(mostly for navigation bars, the content goes beneath it, relative to the browser)
+top : 0px;
+(moves 0px away from the top of the browser)
+
+sticky:
+
+position: sticky;
+
+top: 0px; (gets sticky to the window as it is 0px away from the top)
+
+absolute:
+
+position: absolute;
+
+(ancestor position: relative, sticky, fixed, it changes its position relative to it's ancestor or else, in case without any ancestors, then it positions itself with the window).
+
+z-index: 10;(0)
+it would appear on top of elements if they are hidden.
+
+overrides whichever z-index in greater
+
+

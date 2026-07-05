@@ -1,0 +1,30 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.outer-container {
+  background-color: rgb(210, 19, 19);
+  height: 200px;
+  width: 300px;
+  margin: 20px;
+  position: relative;
+}
+
+.inner-container {
+  background-color: rgb(14, 14, 120);
+  height: 100px;
+  width: 300px;
+  position: absolute;
+  top: 50px;
+}
+
+.circle {
+  background-color: white;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  position: absolute;
+  top: 10px;
+  left: 100px;
+}

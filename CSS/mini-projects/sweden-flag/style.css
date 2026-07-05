@@ -1,0 +1,22 @@
+.outer-container {
+  height: 200px;
+  width: 300px;
+  background-color: rgb(17, 107, 196);
+  position: relative;
+}
+
+.top-container {
+  background-color: rgb(241, 241, 6);
+  height: 200px;
+  width: 45px;
+  position: absolute;
+  left: 100px;
+}
+
+.left-container {
+  background-color: rgb(241, 241, 6);
+  height: 45px;
+  width: 300px;
+  position: absolute;
+  top: 80px;
+}
