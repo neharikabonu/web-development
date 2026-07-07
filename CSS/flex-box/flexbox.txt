@@ -1,0 +1,35 @@
+Flexbox is a layout model for arranging items (horizontally or vertically) within a container, in a flexible and responsive way.
+
+Flexbox is used for a one-dimensional layout, with rows or columns.
+
+Flexbox components ->
+
+1. Container : The parent (container) element, where the display property is set to flex or inline-flex.
+2. flex-items: the direct children of the flex container automatically becoes flex items
+
+properties:
+1. display: must be set to flex or inline-flex
+2. flex-direction: sets the display-direction to:
+  row(default), column, row-reverse, column-reverse
+3. flex-wrap: specifies whether the flex items should wrap or not
+  nowrap (default), wrap, wrap-reverse
+4. flex-flow: shorthand property for flex-direction and flex-wrap properties.
+  eg., flex-flow: row wrap;
+
+justify-content:
+It aligns the flex-items along the main-axis (horizontally)
+  center, flex-start,(default), flex-end, space-around, space-between, space-evenly
+
+align-items: 
+it aligns the flex items vertically(on the cross-axis)
+  normal(default), stretch, center, flex-start, flex-end, baseline
+
+align-content:
+when flex items wrap into multiple lines, we should use align-content(same propertiesas align-items and justify-content)
+
+flex-items:
+the direct child elements of a flex container
+1. order: specifies the display order of the flex-items
+2. flex-grow: specifies how much a flex item will grow relative to the rest of the flex items
+3. flex-basis: increases the length/width of the flex-item
+4. align-self: specifies the alignment for the specific item.
