@@ -1,0 +1,30 @@
+body {
+  box-sizing: border-box;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: 1fr 2fr 1fr;
+  grid-template-columns: 1fr 2fr;
+  height: 200px;
+  width: 400px;
+}
+
+.orange {
+  background-color: orange;
+  grid-column: 1/4 ;
+}
+
+.green {
+  background-color: green;
+}
+
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
+  grid-row-start: 3/4;
+  grid-column: 1/4;
+}
